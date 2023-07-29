@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+ 
+    --naranja: #fc7300;
+    --verdeOscuro: #1f8a70;
+    --azulOscuro: #00425a;
+    --negro: #181823;
+    --blanco: #eff5f5;
+
+  
+    --TPrincipal: 'Poppins', sans-serif;
+    --TSecundaria: 'Belanosima', sans-serif;
+
+}
+
+body {
+    background-color: var(--verdeOscuro);
+    font-family: var(--TSecundaria);
+}
+
+header {
+    background-color: var(--verdeOscuro);
+    font-family: var(--TSecundaria);
+}
+
+.navbar  {
+    background-color: var(--verdeOscuro);
+}
+.container-fluid {
+    background-color: var(--verdeOscuro);
+}
+h1
+{
+    font-family: var(--TPrincipal);
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+h2,
+h4,
+h5 {
+    font-family: var(--TPrincipal);
+    color: var(--negro);
+}
+
+ .bg-warning 
+{
+    background-color: var(--naranja)!important;
+}
+.card-body {
+    background-color: var(--naranja);
+}
